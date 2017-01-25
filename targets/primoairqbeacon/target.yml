@@ -1,0 +1,4 @@
+### Target: targets/primoairqbeacon
+target.app: "apps/air_quality_beacon"
+target.bsp: "@apache-mynewt-core/hw/bsp/arduino_primo_nrf52"
+target.build_profile: "debug"

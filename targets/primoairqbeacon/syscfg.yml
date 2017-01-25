@@ -1,0 +1,19 @@
+# Package: apps/air_quality
+
+syscfg.vals:
+    # Enable as per blinky_primo
+    SHELL_TASK: 1
+    STATS_CLI: 1
+
+    CONSOLE_TICKS: 1
+    CONSOLE_PROMPT: 1 
+
+    UART_0_PIN_TX: 23
+    UART_0_PIN_RX: 24
+
+    BLE_MULTI_ADV_SUPPORT: 1
+    BLE_MULTI_ADV_INSTANCES: 1
+
+    BLE_MAX_CONNECTIONS: 4
+
+    LOG_LEVEL: 255
